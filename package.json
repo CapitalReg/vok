@@ -1,0 +1,36 @@
+{
+  "name": "vok",
+  "version": "0.0.1",
+  "description": "Value OK? Shorthand validity check.",
+  "main": "vok.js",
+  "author": {
+    "name": "Aaron Kenney"
+  },
+  "dependencies": {
+  	"underscore": "1.8.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CapitalReg/vok.git"
+  },
+  "keywords": [
+    "validity",
+    "valid",
+    "check",
+    "exists",
+    "helper"
+  ],
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/CapitalReg/vok/issues"
+  },
+  "maintainers": [
+    {
+      "name": "capitalreg",
+      "email": "noreply@capitalreg.co.uk"
+    }
+  ]
+}
