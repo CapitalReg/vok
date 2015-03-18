@@ -27,7 +27,7 @@ var vokT = function(obj,expectedtype,debug) {
 }
 
 // Value OK
-var vok = function(obj,expectedpath,expectedtype,debug) {
+module.exports = vok = function(obj,expectedpath,expectedtype,debug) {
 
 	if(_.isUndefined(debug) || debug !== true) {
 		var debug = false;
@@ -113,7 +113,3 @@ var vok = function(obj,expectedpath,expectedtype,debug) {
 	return ret;
 
 }
-
-module.exports = {
-  vok: vok
-};
